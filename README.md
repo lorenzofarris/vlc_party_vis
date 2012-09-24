@@ -15,7 +15,7 @@ The main features I look for out of the software I am using are
 * When playing the music, display the current song along with what
   dance goes with the song, as well as the dances for the next few
   songs.
-  <img src="screen_shot.png"/>
+  <img src="vlc_party_vis/blob/master/screen_shot.png"/>
 
 ## Prerequisites
 * A digital library of music tagged such that ID3v2 tag TCON contains
