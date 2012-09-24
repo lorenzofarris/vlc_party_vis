@@ -1,0 +1,86 @@
+root { 
+    display: block;
+}
+body{
+    background-color: #000000;
+    font-family: sans-serif;
+}
+#mainContainer{
+    text-align: center;
+    /* width: 1200px; */
+    margin-left: 20px;
+}
+#controlContainer{
+	/* width: 1200px; */
+}
+#seekSlider{
+	width: 98%;
+	margin-left:5px;
+}
+#mediaTitle{
+    text-align: left;
+    padding: 5px;
+    overflow: auto;
+    font-size: 400%;
+    margin-left: 50px;
+}
+
+#mediaArtist{
+    text-align: left;
+    padding: 20px;
+    overflow: auto;
+    font-size: 200%;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+#mediaGenre{
+    text-align: right;
+    font-size: 400%;
+    margin-right: 50px;
+    color: 0x8888FF;
+}
+
+#currentTime{
+    //margin-top:-40px;
+    float: left;
+    text-align: left;
+    font-size: 200%
+}
+
+#totalTime{
+    //margin-top:-40px;
+    float: right;
+    text-align: right;
+    font-size: 200%
+}
+
+#controlTable{
+    position:relative;
+    height: 400px;
+    background: #000000;
+    color: #FFFFFF;
+}
+#seekContainer{
+	//position:absolute;
+	//left: 5px;
+	//top: 400px;
+        margin-top: 30px;
+	width: 95%;
+	//vertical-align: bottom;
+}
+div.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+#nextSongs{
+    margin-left: 50px;
+    position: relative;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 400%;
+}
+.hidden{
+	visibility: hidden;
+	display: none;
+}
