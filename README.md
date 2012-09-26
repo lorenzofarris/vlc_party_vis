@@ -51,3 +51,15 @@ return hours if the hours are zero.
 #### New Files
 ##### party.html
 html for the new visualization
+
+##### js/upcoming.js
+javascript code to grab the playlist from vlc, find out the current
+song playing from the playlist, and get the genres of the next few
+songs from the mp3 files. This code is the point of all these vlc
+specific files, otherwise you could just use their mobile
+interface. It requires the ruby code under <code> genre </code> in
+this git.
+
+##### css/party.css
+
+Some simple styling to make the visualization clear.
