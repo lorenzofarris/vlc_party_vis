@@ -17,6 +17,12 @@ The main features I look for out of the software I am using are
   songs.
   <img src="https://github.com/lorenzofarris/vlc_party_vis/blob/master/screen_shot.png?raw=true"/>
 
+Once you have all the pieces in place, you 
+1. Launch VLC
+2. Turn on the http interface
+3. Load a playlist of local songs.
+4. Go to http://localhost/vlc/party.html if you've configured things exaclty the way I have.
+
 ## Prerequisites
 * A digital library of music tagged such that ID3v2 tag TCON contains
   the dance style for the music, e.g., Waltz or Salsa.
